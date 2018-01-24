@@ -1,0 +1,75 @@
+.jumbotron {
+  background-image: url(Images/cover_photo.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+.jumbotron p {
+  color: darkgrey;
+  text-shadow: .5px .5px darkgrey;
+}
+
+/* .container-fluid {
+  background-color: #2c422e;
+} */
+
+.header h2 {
+  color: white;
+  font-weight: normal;
+}
+
+.header span {
+  margin: 0 3px;
+}
+
+.header h5 {
+  color: darkgrey;
+  font-weight: normal;
+}
+
+.header h4 {
+  color: darkgrey;
+  font-weight: normal;
+}
+
+.header a {
+  color: darkgrey;
+  font-weight: normal;
+}
+
+.header a:hover {
+  color: white;
+  font-weight: normal;
+}
+
+.paragraph p {
+  color: lightgrey;
+  /* font-weight: bold; */
+}
+
+body {
+  background-color: #2c422e;
+}
+
+hr {
+  background-color: #3a673e;
+}
+
+.footer p, h4 {
+  color: #3a673e;
+}
+
+.footer a {
+  color: #3a673e;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #3a673e;
+  text-decoration: underline;
+  color: darkgrey;
+}
