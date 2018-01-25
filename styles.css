@@ -1,7 +1,7 @@
 .cover_photo {
   background-image: url(Images/cover_photo.jpg);
   background-size: cover;
-  min-height: 500px;
+  height: 500px;
 }
 
 .jumbotron h1 {
