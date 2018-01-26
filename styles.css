@@ -1,16 +1,16 @@
 .cover_photo {
   background-image: url(Images/cover_photo.jpg);
   background-size: cover;
-  height: 500px;
+  height: 550px;
 }
+
 
 .jumbotron h1 {
   color: white;
 }
 
 .jumbotron p {
-  color: darkgrey;
-  text-shadow: .5px .5px darkgrey;
+  color: darkorange;
 }
 
 .special {
@@ -23,6 +23,11 @@ height: 685px;
   color: white;
 }
 
+.special_text {
+  max-width: 600px;
+  /* margin-bottom: 0; */
+}
+
 .header h2 {
   color: white;
   font-weight: normal;
@@ -32,12 +37,7 @@ height: 685px;
   margin: 0 3px;
 }
 
-.header h5 {
-  color: darkgrey;
-  font-weight: normal;
-}
-
-.header h4 {
+h3, h4, h5 {
   color: darkgrey;
   font-weight: normal;
 }
@@ -52,9 +52,12 @@ height: 685px;
   font-weight: normal;
 }
 
-.paragraph p {
+p {
   color: lightgrey;
-  /* font-weight: bold; */
+}
+
+.Disclaimer p {
+  color: darkgrey;
 }
 
 body {
@@ -65,7 +68,24 @@ hr {
   background-color: #3a673e;
 }
 
-.footer p, h4 {
+.pricing h2 {
+  color: darkorange;
+  /* text-decoration: underline; */
+}
+
+.pricing h4 {
+  color: lightgrey;
+}
+
+.table .thead-dark th {
+  background-color: #343a40;
+}
+
+.table td, th {
+  color: lightgrey;
+}
+
+.footer p, .footer h4 {
   color: #3a673e;
 }
 
