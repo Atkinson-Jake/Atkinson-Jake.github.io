@@ -51,7 +51,7 @@ h3, h4, h5 {
   font-weight: normal;
 }
 
-p {
+p, li {
   color: lightgrey;
 }
 
@@ -69,7 +69,15 @@ hr {
 
 .pricing h2 {
   color: darkorange;
-  /* text-decoration: underline; */
+}
+
+.amenities h2 {
+  color: darkorange;
+}
+
+.amenities h4 {
+  color: darkorange;
+  text-decoration: underline;
 }
 
 .pricing h4 {
