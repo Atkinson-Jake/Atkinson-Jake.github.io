@@ -107,3 +107,7 @@ hr {
   text-decoration: underline;
   color: darkgrey;
 }
+
+#logo {
+  font-family: 'Crimson Text', serif;
+}
